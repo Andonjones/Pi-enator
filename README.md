@@ -93,7 +93,7 @@ Mk2 became the first version of the Pi-enator that felt less like a collection o
 
 The first photo below shows Mk2 during being deployed in an outside world" environment - my work; at the time of writing this. Mk2 being deployed with owners' permission to capture traffic/packets, to be used in my final project for Utah University's Cyber Security bootcamp at the time. 
 
-![Pi-enator Mk2 developmental testing](pienatormk2_at work.jpg)
+![Pi-enator Mk2 developmental testing](pienatormk2_at_work.jpg)
 
 The completed enclosure packaged the display, Raspberry Pi, and supporting hardware into a single portable unit.
 

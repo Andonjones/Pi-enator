@@ -143,3 +143,58 @@ During the design process, I realized that building all of these features around
 That realization led to another experiment: instead of building the entire handheld platform from scratch, could I repurpose an existing mobile device?
 
 Mk3 remains a concept I may revisit, but that question eventually led to the next branch of the project.
+
+
+## Mk3.5 — BlackBerry KEYone Experiment
+
+**Status: Active Development**
+
+Mk3.5 takes a different approach to the problems discovered during the Mk3 design process.
+
+Rather than building a handheld computer from individual components, I began looking for an existing mobile platform that already provided many of the features I wanted: a compact enclosure, battery management, integrated display, wireless connectivity, and most importantly, a physical keyboard.
+
+That led me to a BlackBerry KEYone I was able to find and get a developer prototype.
+
+The goal of Mk3.5 is to investigate whether the KEYone can be repurposed into a pocketable Linux and network security experimentation platform while retaining as much useful mobile-device functionality as possible.
+
+### Why the KEYone?
+
+The hardware already solves many of the problems I was trying to address with Mk3:
+
+- Pocketable form factor
+- Integrated physical keyboard
+- Touchscreen input
+- Built-in battery and charging system
+- Wi-Fi and Bluetooth
+- Cellular hardware
+- Self-contained display and controls
+- No external monitor or keyboard required
+
+Instead of designing those systems from scratch, the challenge becomes understanding and modifying the existing platform.
+
+### Current Work
+
+So far, work on the KEYone has included:
+
+- Establishing communication with the device using Android Debug Bridge (ADB)
+- Configuring Windows USB and Fastboot drivers
+- Communicating with the device through Fastboot
+- Investigating the bootloader and available device information
+- Investigating OEM unlocking limitations on the developer hardware
+- Researching approaches for running a more complete Linux environment on the device
+
+### Current Challenge
+
+The biggest challenge is gaining enough control over the platform to run the Linux environment I originally envisioned.
+
+Unlike the Raspberry Pi versions, the KEYone was not designed to be an open development platform. That means the problem has shifted from assembling hardware to understanding the Android boot process, bootloader restrictions, drivers, partitions, and the limitations imposed by the existing device.
+
+This is still an active experiment, and I do not yet know whether the final result will meet all of the original Pi-enator goals.
+
+That uncertainty is part of the project.
+
+### Long-Term Goal
+
+The ideal result would be a self-contained handheld capable of running useful Linux and network analysis tools while retaining practical mobile functionality such as cellular connectivity.
+
+Whether the KEYone can ultimately meet that goal is still being discovered.

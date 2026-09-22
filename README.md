@@ -31,7 +31,7 @@ I used SSH extensively during setup and configuration. This was one of my first 
 
 ### Hardware
 
-- Raspberry Pi
+- Raspberry Pi 5
 - Waveshare TFT display
 - Custom 3D-printed enclosure
 - Cooling hardware

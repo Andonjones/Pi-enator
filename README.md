@@ -98,3 +98,48 @@ The first photo below shows Mk2 during being deployed in an outside world" envir
 The completed enclosure packaged the display, Raspberry Pi, and supporting hardware into a single portable unit.
 
 ![Completed Pi-enator Mk2](Pienatormk2.jpg)
+
+
+
+Mk1/Mk2 proved the software/tool concept worked, but they were still basically tiny desktop computers. Mk3 was the first attempt to design around how the thing would actually be used.
+
+## Mk3 — Handheld Concept
+
+**Status: Concept / Not Built**
+
+By Mk3, the biggest limitation was no longer the software. It was the form factor.
+
+Mk1 and Mk2 proved that I could build a small Linux-based platform capable of running the tools I wanted, but they were still essentially compact desktop systems. They needed a surface to sit on, external power for longer sessions, and separate input devices. For a project originally intended to explore how portable and discreet a network security platform could become, that was a major limitation.
+
+Mk3 was my attempt to redesign the Pi-enator around portability from the beginning.
+
+### Design Goals
+
+- Fully handheld and capable of being used without a desk
+- Small enough to carry in a pocket or backpack pouch
+- Integrated physical keyboard
+- Integrated trackpad or trackball
+- Larger internal battery for extended standalone operation
+- Readable built-in display
+- Effective cooling despite the smaller enclosure
+- More resistant to dust and dirt than the previous designs
+- Able to be set down and used as a small standalone computer when needed
+
+I worked through drawings and design concepts for the enclosure and hardware layout, but Mk3 never progressed to a physical prototype.
+
+### Design Sketches
+
+Early Mk3 concepts explored the physical layout, hinge mechanism,
+integrated controls, and overall handheld form factor.
+
+![Mk3 handheld concept](mk3-concept-sketch.jpg)
+
+![Mk3 hinge and enclosure concept](mk3-hinge-sketch.jpg)
+
+During the design process, I realized that building all of these features around a Raspberry Pi would require solving many of the same problems that existing mobile devices already solve: battery management, display integration, compact input hardware, charging, power efficiency, and durable packaging.
+
+### Mk3 Conclusion
+
+That realization led to another experiment: instead of building the entire handheld platform from scratch, could I repurpose an existing mobile device?
+
+Mk3 remains a concept I may revisit, but that question eventually led to the next branch of the project.

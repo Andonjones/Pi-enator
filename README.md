@@ -19,15 +19,58 @@ And thus, the Pi-enator was born.
 - Learn how security tools work through practical use rather than theory alone
 - Continue improving the platform as my skills and requirements evolve
 
-## Mk1 — Raspberry Pi Prototype
+
+## Mk1 — First Portable Prototype
 
 **Status: Completed**
 
-The first Pi-enator was built around a Raspberry Pi running Kali Linux.
+The project initially began with a Raspberry Pi connected to a conventional monitor while I learned how to configure the operating system, tools, and hardware.
 
-A Waveshare TFT display was added to make the system self-contained, and the hardware was installed in a custom 3D-printed enclosure. The enclosure was modeled for the project and revised as hardware and cooling requirements became clearer.
+Mk1 was the first attempt to turn that setup into a genuinely portable device. I added a Waveshare TFT display directly to the Raspberry Pi, removing the need for an external monitor and creating the first self-contained version of the Pi-enator.
 
-I used SSH extensively during setup and configuration. This was one of my first projects where I independently relied on SSH to configure and troubleshoot another Linux system, and it became an important part of becoming more comfortable working remotely from the command line.
+This version was functional, but it was still very much a prototype. The exposed hardware, display setup, cooling requirements, and lack of a purpose-built enclosure made it clear where the next version needed improvement.
+
+Mk1 also became one of my first projects where I independently relied heavily on SSH to configure and troubleshoot another Linux system.
+
+### Hardware
+
+- Raspberry Pi 5
+- Waveshare TFT display
+- Cooling hardware
+- Bluetooth input/control devices
+
+### Software & Tools
+
+- Kali Linux
+- SSH
+- Nmap
+- Wireshark
+
+### What Mk1 Taught Me
+
+Mk1 proved that the basic concept worked: I could package a Linux system and security tools into something much smaller and more portable than a laptop.
+
+It also exposed the project's next problems to solve, particularly physical packaging, cooling, display configuration, and making the device practical to carry and use.
+
+## Problems & Lessons Learned
+
+### Display Compatibility
+
+Finding a display that communicated properly with the Raspberry Pi proved more difficult than expected. Getting the Waveshare TFT working required additional configuration and troubleshooting.
+
+
+
+## Mk2 — Enclosed Portable Build
+
+**Status: Completed**
+
+Mk2 focused on turning the working prototype into a more complete portable system.
+
+I designed and 3D printed a dedicated enclosure for the Raspberry Pi, display, and cooling hardware. This version required additional work around component placement, thermal management, display configuration, and fitting the hardware into a compact package.
+
+The enclosure was modeled in Fusion 360 and produced using OrcaSlicer. Like Mk1, the system continued to use Kali Linux and could be administered remotely over SSH.
+
+Mk2 became the first version of the Pi-enator that felt less like a collection of development hardware and more like a purpose-built device.
 
 ### Hardware
 
@@ -35,7 +78,7 @@ I used SSH extensively during setup and configuration. This was one of my first 
 - Waveshare TFT display
 - Custom 3D-printed enclosure
 - Cooling hardware
-- Bluetooth input/control devices
+- Bluetooth keyboard/input devices
 
 ### Software & Tools
 
@@ -46,28 +89,12 @@ I used SSH extensively during setup and configuration. This was one of my first 
 - Fusion 360
 - OrcaSlicer
 
-## Network Security Testing
+### Development
 
-The Mk1 was used to perform reconnaissance and network analysis in authorized environments, including my own network and a workplace network for which I received permission to perform testing.
+The first photo below shows Mk2 during being deployed in an outside world" environment - my work; at the time of writing this. Mk2 being deployed with owners' permission to capture traffic/packets, to be used in my final project for Utah University's Cyber Security bootcamp at the time. 
 
-The goal was not simply to "find a vulnerability," but to understand what information could be discovered from a network, how common reconnaissance tools presented that information, and how the results could be interpreted.
+![Pi-enator Mk2 during development](images/mk2-development.jpg)
 
-One useful outcome was discovering that testing does not necessarily produce dramatic vulnerabilities. Some of the techniques I experimented with produced limited results against the tested environments, which helped demonstrate the difference between running a security tool and actually interpreting what its results mean.
+The completed enclosure packaged the display, Raspberry Pi, and supporting hardware into a single portable unit.
 
-## Problems & Lessons Learned
-
-### Display Compatibility
-
-Finding a display that communicated properly with the Raspberry Pi proved more difficult than expected. Getting the Waveshare TFT working required additional configuration and troubleshooting.
-
-### Cooling
-
-Packaging a computer into a small enclosure introduced thermal considerations. I needed to develop a cooling solution that would allow the device to operate reliably for extended periods.
-
-### Linux & SSH
-
-The project forced me to become considerably more comfortable working with Linux remotely. What initially felt unfamiliar became one of the most useful skills I took away from the project.
-
-### Security Testing Results
-
-Some testing produced fewer useful findings than I initially expected. This became a useful lesson itself: running reconnaissance tools is only the beginning of an assessment, and a lack of obvious findings is still a result that needs to be understood.
+![Completed Pi-enator Mk2](images/mk2-completed-build.jpg)

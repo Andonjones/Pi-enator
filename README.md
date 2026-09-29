@@ -125,8 +125,13 @@ Mk3 was my attempt to redesign the Pi-enator around portability from the beginni
 - More resistant to dust and dirt than the previous designs
 - Able to be set down and used as a small standalone computer when needed
 
-I worked through drawings and design concepts for the enclosure and hardware layout, but Mk3 never progressed to a physical prototype.
+I worked through drawings and design concepts for the enclosure and hardware layout, but Mk3 never progressed to a physical prototype. ### Mk3 Concept Sketch
 
+One of the surviving design sketches from the Mk3 development process shows the planned clamshell layout, integrated keyboard and pointing device, pivoting display, and compact closed form factor.
+
+The original Fusion 360 models for Mk3 were not retained, so this sketch is one of the remaining records of the design before the project shifted toward the Mk3.5 mobile-device concept.
+
+![Pi-enator Mk3 handheld concept sketch](Pi_enator_docs/pi_enator_mk3_stetch.jpg)
 ### Design Sketches
 
 Early Mk3 concepts explored the physical layout, hinge mechanism,

@@ -131,15 +131,12 @@ One of the surviving design sketches from the Mk3 development process shows the 
 
 The original Fusion 360 models for Mk3 were not retained, so this sketch is one of the remaining records of the design before the project shifted toward the Mk3.5 mobile-device concept.
 
-![Pi-enator Mk3 handheld concept sketch](Pi_enator_docs/pi_enator_mk3_stetch.jpg)
 ### Design Sketches
 
 Early Mk3 concepts explored the physical layout, hinge mechanism,
 integrated controls, and overall handheld form factor.
 
-![Mk3 handheld concept](mk3-concept-sketch.jpg)
-
-![Mk3 hinge and enclosure concept](mk3-hinge-sketch.jpg)
+![Pi-enator Mk3 handheld concept sketch](Pi_enator_docs/pi_enator_mk3_stetch.jpg)
 
 During the design process, I realized that building all of these features around a Raspberry Pi would require solving many of the same problems that existing mobile devices already solve: battery management, display integration, compact input hardware, charging, power efficiency, and durable packaging.
 

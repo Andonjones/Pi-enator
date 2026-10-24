@@ -1,4 +1,5 @@
 # The Pi-enator
+![Dr. Doofenshmirtz Inspiration Photo](Pi_enator_docs/finishedW_dr_doof.png)
 
 ### An evolving portable Linux and network security experimentation platform
 

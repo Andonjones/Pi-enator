@@ -73,6 +73,8 @@ The enclosure was modeled in Fusion 360 and produced using OrcaSlicer. Like Mk1,
 
 Mk2 became the first version of the Pi-enator that felt less like a collection of development hardware and more like a purpose-built device.
 
+![Pi-enator Video running wireshark!](Pi_enator_docs/pi_enator_sanatized_final_maybe.mp4)
+
 ### Hardware
 
 - Raspberry Pi 5
